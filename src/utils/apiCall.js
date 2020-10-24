@@ -1,6 +1,10 @@
 const axios = require("axios");
 
-const getInstance = ({ url, headers }) => {
+const OPTIONS_BY_DEFAULT = {
+  headers: { "Content-Type": "application/json" },
+  url: "",
+};
+const getInstance = ({ url, headers } = OPTIONS_BY_DEFAULT) => {
   const instance = axios.create({
     baseURL: url,
     headers,
