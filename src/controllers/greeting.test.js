@@ -1,6 +1,6 @@
 const express = require("express");
-const greeting = require("./greeting");
 const request = require("supertest");
+const greeting = require("./greeting");
 
 const app = express();
 app.use("/api/greeting", greeting);
