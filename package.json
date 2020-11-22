@@ -1,5 +1,5 @@
 {
-  "name": "api-wize",
+  "name": "api-weather",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/FredyBautista/api-wize.git"
+    "url": "git+https://github.com/FredyBautista/api-weather.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/FredyBautista/api-wize/issues"
+    "url": "https://github.com/FredyBautista/api-weather.git/issues"
   },
-  "homepage": "https://gitlab.com/FredyBautista/api-wize#readme",
+  "homepage": "https://github.com/FredyBautista/api-weather.git#readme",
   "dependencies": {
     "axios": "^0.21.0",
     "express": "^4.17.1"
