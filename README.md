@@ -1,4 +1,4 @@
-# Api Wize
+# Api
 
 ### Weather API
 
